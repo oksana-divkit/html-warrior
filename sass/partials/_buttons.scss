@@ -1,0 +1,27 @@
+/* Buttons
+-----------------------------------------------------------------------------*/
+.btn-transp {
+	display: inline-block;
+	min-width: 238px;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	padding: 11px 40px 14px;
+	color: #fff;
+	text-transform: lowercase;
+	font: 18px/1 $myriadBold;
+	letter-spacing: 0.05em;
+	background: none;
+	@include transition (all linear .2s);
+
+	&:hover {
+		background: #fff;
+		color: #6f9306;
+	}
+
+	&:active,
+	&:focus {
+		background: #fff;
+		color: #6f9306;
+		border-color: #6f9306;
+	}
+}

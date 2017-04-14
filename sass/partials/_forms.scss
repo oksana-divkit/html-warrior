@@ -1,0 +1,35 @@
+/* Forms
+-----------------------------------------------------------------------------*/
+.order-form {
+	text-align: center;
+	color: #fff;
+
+	&__line {
+		margin: 0 0 15px;
+	}
+
+	&__input {
+		border: 0;
+		border-bottom: 1px solid #fff;
+		background: none;
+		padding: 0;
+		width: 100%;
+		height: 22px;
+		color: #fff;
+		-webkit-appearance: none;
+		border-radius: 0;
+
+		&:focus {
+		}
+	}
+
+	&__submit {
+		display: block;
+		margin: 33px auto 0;
+	}
+
+	@include placeholder {
+		color: #fff;
+		color: rgba(#fff, .5);
+	}
+}
